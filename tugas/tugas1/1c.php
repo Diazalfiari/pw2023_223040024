@@ -26,14 +26,11 @@
             display: flex;
             text-align: center;
         }
-
-        
-
     </style>
 </head>
 <body>
         <div class="container1">
-            <div class="kotak"><span>1</div>
+            <div class="kotak">1</div>
         </div>
         <div class="container2">
             <div class="kotak">2</div>
