@@ -18,9 +18,13 @@
             echo ' "'. $var1 . ' saya ' . $var2 . ', ' . $var2 . ' ' . $var1 . ' saya."';
             ?>
         </i>
+    </h2> 
+<!-- versi bapa -->
+    <h2>
+        <i>
+            "<?php echo $var1 . ' saya ' . $var2 . ', ' . $var2 > ' ' . $var1 . ' saya ';?>"
+        </i>
     </h2>
-
-
 
 </body>
 </html>
