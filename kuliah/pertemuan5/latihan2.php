@@ -43,6 +43,14 @@
         <?php } ?>
     </ol>
 
+    <hr>
+
+    <h2>Daftar Makanan</h2>
+    <ol>
+        <?php foreach($makanan as $m) : ?>
+        <li><?= $m; ?></li>
+        <?php endforeach ?>
+    </ol>
 
 </body>
 </html>

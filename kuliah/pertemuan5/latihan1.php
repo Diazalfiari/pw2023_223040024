@@ -1,7 +1,7 @@
 <?php 
 //array
-
-//membuat array
+//variabel yg dapat memiliki banyak nilai
+//membuat array 
 
 $hari = array('senin','selasa','rabu','kamis','jumat','sabtu','minggu');
 $bulan = ['januari','februari','maret','april','mei','juni','juli','agustus','september','oktober','november'];
