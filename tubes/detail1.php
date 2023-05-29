@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filosopi Kopi 2</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style-det.css">
+    <link rel="stylesheet" href="css/style-det.css">
 </head>
 <body>
     <?php 
-    include "../navbar.php";
-    ?>
+    require ('views/partials/nav.php');    ?>
 
 <section class="card">
     <div class="header">
-        <img src="../img/FilosopiKopi2.jpg" alt="">
+        <img src="img/FilosopiKopi2.jpg" alt="">
         <div class="header-text">
             <h3>Filosopi Kopi 2</h3>
             <p>Genre:Adventure, Drama</p>
@@ -30,8 +29,30 @@
     </div>
   </section>
   <!-- footer -->
-<footer class="footer">
-    <p class="copy">Copyright 2023. Diaz Alfiari Rachmad.</p>
-  </footer>
-</body>
+  <footer class="footer">
+  <p class="copy">Copyright 2023. Diaz Alfiari Rachmad.</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
+  </body>
 </html>
