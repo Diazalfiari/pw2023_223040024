@@ -1,3 +1,13 @@
+<?php 
+session_start();
+if (isset($_SESSION['loginsuccesfull'])) {}
+    else{
+        echo "<script>alert('kamu tidak bisa masuk!');window.location.href='login.php';</script>";
+    }
+require 'db.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,6 +49,7 @@
                 <div class='card'>
                     <div class='card-header'>
                         <h1>Welcome back Diaz</h1>
+                        <a href="logout.php">Logout</a>
                     </div>
                     <div class='card-body'>
                         <p>Your account type is: Administrator</p>
