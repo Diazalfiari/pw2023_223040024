@@ -17,7 +17,7 @@ require 'db.php';
 </head>
 <body class="align">
   <div class="grid">
-    <h1>Sign In</h1>
+    <h1>Sign In Admin</h1>
     <form action="login.php" method="post" class="form login">
       <div class="form_field">
         <label for=""><i class="fa fa-user" style="color: #606468"></i></label>
@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
     $row = mysqli_num_rows($run);
     if ($row == 1) {
       $_SESSION['loginsuccesfull']=1;
-        echo "<script>alert('login sukses!'); window.location.href='dashboard.php';</script>";
+        echo "<script>alert('login sukses!'); window.location.href='index.php';</script>";
     }
     else{
         echo "<script>alert('gagal, Username/password SALAH!');</script>";
