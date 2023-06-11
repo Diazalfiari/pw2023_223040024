@@ -16,7 +16,7 @@ require 'views/partials/nav-das.php';
                 <div class='card-body'>
         <table class="table">
           <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-8 mx-auto">
       <form action="" method="post" enctype="multipart/form-data">
       <input type="hidden" name="id" value="<?= $movie['id']; ?>">
         <input type="hidden" name="gambarLama" value="<?= $movie['gambar']; ?>">
