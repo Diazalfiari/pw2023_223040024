@@ -81,9 +81,9 @@ if( isset($_SESSION['login'])) {
             </div>
             <?php else : ?>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 mx-auto">
       <div class="alert alert-danger" role="alert">
-    Student not found!
+    Movie not found!
       </div>
     </div>
   </div>
