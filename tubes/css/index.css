@@ -1,0 +1,147 @@
+.banner {
+    /* background: url(../img/jt.jpg) no-repeat center center;gambar dari pexels.com */
+    /* background-size: cover; */
+    padding-top: 20%;
+    padding-bottom: 20%;
+    /* color: #fff; */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/jt.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  /* footer */
+.footer {
+    background-color:#A52A2A;
+    padding: 10px;
+  }
+  
+  .footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .searchBox {
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 7px 20px;
+    width: 50%;
+    border: 2px solid #6AC045;
+    outline: 0;
+    display: inline;
+    color: #fff;
+    background:transparent;
+}
+
+.about-box {
+    background: white;
+    text-align: center;
+}
+
+.about {
+    padding: 30px;
+    color: red;
+    text-align: center;
+    letter-spacing: 1px;
+    width:60%;
+}
+
+.about-content {
+    font-size: 20px;
+    color: rgb(71, 69, 69);
+    margin-top: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.ratedMoviesHead{
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.movieBox {
+    background: #222;
+    padding: 15px;
+    border-radius: 5px; 
+}
+
+.img {
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+.browse-movie-bottom{
+    margin: 0 10px;;
+    max-width: 220px;
+    text-align: left;
+}
+
+.browse-movie-title{
+    font-size: 0.95em;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    transition: color .15s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a{
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+.browse-movie-year {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #919191;
+}
+
+.button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline;
+    color: #fff;
+    background: #6AC045;;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.box{
+    padding: 15px;  
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: red !important;    
+}
+
+/* @media(max-width:960px){
+    .hidden-sm{
+        opacity: 0;
+    }
+} */
+
+@media screen and (max-width: 960px) {
+    .hidden-sm{
+        display: none;
+        
+    }
+}
+
+.row {
+    padding : 20px 0;
+} 
+
+#topMovies1 img, #topMovies2 img, #topMovies3 img, #topMovies4 img, #topMovies5 img{
+    width: 100%;
+} 
